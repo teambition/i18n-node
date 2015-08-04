@@ -543,7 +543,7 @@ function localeAccessor(locale,singular,allowDelayedTraversal) {
   } else {
     // No object notation, just return an accessor that performs array lookup.
     return function() {
-      return locales[locale][singular];
+      return locales[locale][singular] || locales[defaultLocale][singular];
     };
   }
 }

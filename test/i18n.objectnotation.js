@@ -56,6 +56,5 @@ describe('Object Notation', function () {
       should.equal(plural, 'plurals');
     });
   });
-
-
+  
 });

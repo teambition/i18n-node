@@ -37,6 +37,8 @@
 		"date": "MM/DD/YYYY",
 		"time": "h:mm:ss a"
 	},
+	"format.date.notation": "MM/DD/YYYY",
+	"format.time.notation": "h:mm:ss a",
 	"greeting": {
 		"formal": "Hello",
 		"informal": "Hi",

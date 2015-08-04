@@ -28,5 +28,6 @@
 	"format": {
 		"date": "DD.MM.YYYY",
 		"time": "hh:mm:ss"
-	}
+	},
+	"format.date.notation": "DD.MM.YYYY"
 }
